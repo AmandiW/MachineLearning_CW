@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the data into a pandas dataframe
-df = pd.read_csv("C:\\Users\\HP\\Downloads\\spambase\\spambase.data")
+df = pd.read_csv("MLDataset.csv")
 
 # Performing a quick exploration
 print(df.head())
