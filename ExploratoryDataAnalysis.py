@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the data into a pandas dataframe
-df = pd.read_csv("MLDataset.csv")
+df = pd.read_csv("ML_DatasetUpdated.csv")
 
 # Performing a quick exploration
 print(df.head())
