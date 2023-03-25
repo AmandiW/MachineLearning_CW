@@ -12,7 +12,7 @@ feature_names.append('spam')
 # Load the data from file using pandas, using feature names as column headers
 data = pd.read_csv("C:\\Users\\HP\\Downloads\\spambase\\spambase.data", header=None, names=feature_names)
 
-# Print the first few rows of the dataset to verify it was loaded correctly
+# Print the first few rows of the dataset to check if it was combined properly
 print(data.head())
 print(data.shape)
 
